@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Changer</title>
+
+    <style>
+        .button {
+            display: inline-block;
+            width: 100px;
+            height: 100px;
+            text-align: center;
+            padding: 10px 20px;
+            border: 1px solid black; /* Optional: adds a border around the rectangle */
+        }
+
+        #grey {
+            background-color: grey;
+        }
+
+        #white {
+            background-color: white;
+        }
+
+        #blue {
+            background-color: blue;
+        }
+
+        #yellow {
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body >
+    <nav style="display: flex; justify-content: center; align-items: center; background-color: antiquewhite;">
+        <button style="width: 200px; height: 50px; margin-right: 20px;">Home</button>
+        <button style="width: 200px; height: 50px;">Youtube</button>
+    </nav>
+
+    <h1 style="display: flex; justify-content: center;">Color Schema Switcher</h1>
+
+    <div style="display: flex; justify-content: center; align-items: center; margin-top: 100px; margin-right: 20px;">
+        <span class="button" id="grey" style="margin-right: 20px;">grey</span>
+        <span class="button" id="white" style="margin-right: 20px;">white</span>
+        <span class="button" id="blue" style="margin-right: 20px;">blue</span>
+        <span class="button" id="yellow" style="margin-right: 20px;">yellow</span>
+    </div>
+
+    <h3 style="display: flex; justify-content: center; margin-top: 100px;"> Click the rectangle box to change the background-color </h3>
+</body>
+
+<script src="index.js"></script>
+    
+</script>
+</html>
